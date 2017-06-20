@@ -1,0 +1,15 @@
+[{
+  "id": 2,
+  "color": "BLACK / RED / WHITE",
+  "brand": "ADIDAS",
+  "price": "$170.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0083-150.progressive.jpg?v=1493664226",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0061-145.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0064-146.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0064-146.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/White_BA7253_0052-142_aa20f0ce-207f-4c99-b9d3-172965266802.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0068-147.progressive.jpg?v=1493664226"}
+  ]
+}
+]

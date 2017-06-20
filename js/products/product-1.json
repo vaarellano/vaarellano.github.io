@@ -1,0 +1,15 @@
+[{
+  "id": 1,
+  "color": "METALLIC RED / WHITE",
+  "brand": "Nike",
+  "price": "$160.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1055-18.progressive.jpg?v=1494011597",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1160-41.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1153-38.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1158-40.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1156-39.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1160-41.progressive.jpg?v=1494011597"}
+  ]
+}
+]

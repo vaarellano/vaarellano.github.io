@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Rocktown Kicks</title>
+	<link rel="stylesheet" href="css/vendor/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+
+	<link rel="stylesheet" href="css/vendor/slick.css">
+	<link rel="stylesheet" href="css/vendor/slick-theme.css">
+
+
+	
+	<!-- <script src="//unpkg.com/show-current-browser-url"></script> -->
+
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	<script src="js/libs/angular.js"></script>
+	<script src="js/libs/angular-ui-router.js"></script>
+
+	<!--[if lt IE 9]>
+	<script src="js/libs/html5shiv.js"></script>
+<![endif]-->
+	
+	<style>
+		.box{
+			border: 5px solid red;
+			display: block;
+		}
+		.show{
+			display: hidden;
+		}
+	</style>
+
+
+</head>
+<body ng-app="myApp">
+
+<!-- NAVIGATION -->
+<div class="overlay"></div>
+<aside id="side-menu" class="side-menu">
+	<div>
+		<h3>MENU</h3>
+		<nav class="navigation">
+			<ul>
+				<li><a ui-sref="main">HOME</a></li>
+				<li><a ui-sref="collection">COLLECTION</a></li>
+				<li><a ui-sref="lookbook">LOOKBOOK</a></li>
+				<li><a ui-sref="comingsoon">ABOUT</a></li>
+				<li><a ui-sref="comingsoon">BLOG</a></li>
+			</ul>
+		</nav>
+	</div>
+	<footer></footer>
+</aside>
+<!-- NAVIGATION -->
+
+
+<div class="container">
+
+		<!-- NAVBAR -->
+		<nav  cart>
+
+			<ul class="nav-bar">
+				<li class="ham">☰</li>
+				<li><h1><a ui-sref="main">K</a></h1></li>
+				<li id="bag"><img src="images/bag.svg" alt="Shopping bag" class="bag" ></li>
+			</ul>
+		</nav>	
+		
+		<!-- NAVBAR -->
+		
+<!-- 	USE TO TROUBLESHOOT
+		<a ui-sref="main">Main</a>
+		<a ui-sref="collection">Collection</a>
+		<a ui-sref="product">Product</a>
+		<a ui-sref="lookbook">Lookbook</a>
+		<a ui-sref="checkout">Checkout</a>
+		<a ui-sref="ordercomplete">ordercomplete</a> -->
+
+		
+
+		<!-- NG VIEW PAGE -->
+		<div ui-view></div>
+		<!-- NG VIEW PAGE -->
+
+	<!-- FOOTER -->
+	<footer></footer>
+
+	<!-- FOOTER -->
+
+
+</div>
+<!-- CONTAINER -->
+
+<script src="js/nav.js"></script>
+<script src="js/app.module.js"></script>
+<script src="js/app.config.js"></script>
+
+<script src="js/products/product-list.module.js"></script>
+<script src="js/products/product-list.component.js"></script>
+<script src="js/products/product-list.directive.js"></script>
+
+<script src="js/products/product-details.module.js"></script>
+<script src="js/products/product-details.component.js"></script>
+<script src="js/products/product-details.directive.js"></script>
+
+<script src="js/cart/cart-details.module.js"></script>
+<script src="js/cart/cart-details.component.js"></script>
+
+
+</body>
+</html>

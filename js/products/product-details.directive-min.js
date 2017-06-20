@@ -1,0 +1,1 @@
+angular.module("productDetails").directive("cart",function(){return{scope:{},restrict:"A",link:function(t,n,c){var i=$(document).find("#addCart"),e=$(document).find("#removeCart"),d=$(document).find("#bag"),o=0;i.bind("click",function(t){o++,d.text(o)}),e.bind("click",function(t){o--,d.text(o)}),d.bind("click",function(t){o=0,d.text(o)})}}});

@@ -1,0 +1,15 @@
+[{
+  "id": 3,
+  "color": "WHITE / PEARL GREY / BLACK",
+  "brand": "ADIDAS",
+  "price": "$120.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0205-167.progressive.jpg?v=1493324488",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0211-169.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0207-168.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0214-170.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0205-167.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0211-169.progressive.jpg?v=1493324488"}
+  ]
+}
+]

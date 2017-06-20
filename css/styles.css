@@ -1,0 +1,647 @@
+/*960 Grid - 940px internal, 20px gutters*/
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500|Playfair+Display:400,700");
+* {
+  box-sizing: border-box; }
+
+.row {
+  width: auto;
+  max-width: 1440px; }
+
+.row:after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.col-1 {
+  float: left;
+  width: 6.382978723%; }
+
+.col-2 {
+  float: left;
+  width: 14.89361702%; }
+
+.col-3 {
+  float: left;
+  width: 23.40425532%; }
+
+.col-4 {
+  float: left;
+  width: 31.91489362%; }
+
+.col-5 {
+  float: left;
+  width: 40.42553191%; }
+
+.col-6 {
+  float: left;
+  width: 48.93617021%; }
+
+.col-7 {
+  float: left;
+  width: 57.44680851%; }
+
+.col-8 {
+  float: left;
+  width: 65.95744681%; }
+
+.col-9 {
+  float: left;
+  width: 74.46808511%; }
+
+.col-10 {
+  float: left;
+  width: 82.9787234%; }
+
+.col-11 {
+  float: left;
+  width: 91.4893617%; }
+
+.col-12 {
+  float: left;
+  width: 100%; }
+
+h1, h2, h3 {
+  font-family: "Playfair Display", serif; }
+
+p, a, li {
+  font-family: "Fira Sans", sans-serif; }
+
+body {
+  background: #fff; }
+
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0; }
+
+.nav-bar, .nav-bar li, .side-menu div .navigation ul, .overlay, #home-page .collection p, #home-page .collection h2, #home-page .lookbook p, #home-page .lookbook h2, #home-page .about p, #home-page .about h2, #home-page .blog p, #home-page .blog h2, #collection-page .products .sneakers, #collection-page .products .sneakers p, #collection-page .products .sneakers h2, #product-page .product-main-section .product-details {
+  margin: 0;
+  padding: 0; }
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 60px;
+  padding: 0px 8px; }
+  .nav-bar li .bag {
+    height: 1.5rem; }
+  .nav-bar li h1 {
+    font-size: 4rem;
+    font-family: "Playfair Display", serif; }
+    .nav-bar li h1 a {
+      text-decoration: none;
+      color: #000; }
+
+.side-menu {
+  display: block;
+  position: fixed;
+  width: 281px;
+  height: auto;
+  background: #1D1D1F;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  transform: translate3d(-281px, 0, 0);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  z-index: 999; }
+  .side-menu div {
+    position: absolute;
+    height: 372px;
+    top: 30%;
+    display: block;
+    margin-left: 3rem; }
+    .side-menu div h3 {
+      color: #fff; }
+    .side-menu div .navigation ul {
+      list-style: none; }
+      .side-menu div .navigation ul a {
+        color: #9c9c9c;
+        text-decoration: none;
+        line-height: 2rem; }
+        .side-menu div .navigation ul a:hover, .side-menu div .navigation ul a:focus {
+          color: #fff; }
+  .side-menu footer {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 52px;
+    border-top: 1px solid #9c9c9c; }
+
+.overlay {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(29, 29, 31, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  z-index: 999; }
+
+.open-menu {
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform: translate3d(0, 0, 0); }
+
+.open-menu {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+#home-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  #home-page header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/home-hero.jpg") 40% center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%; }
+    #home-page header .logo {
+      height: 200px;
+      width: 200px;
+      background: #000 url("../images/logo.svg") center center no-repeat;
+      background-size: contain; }
+  #home-page h1 {
+    text-align: center; }
+  #home-page p {
+    padding: 1rem; }
+  #home-page .collection, #home-page .lookbook, #home-page .about, #home-page .blog {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem; }
+    #home-page .collection .img, #home-page .lookbook .img, #home-page .about .img, #home-page .blog .img {
+      height: 480px;
+      background-size: cover; }
+    #home-page .collection p, #home-page .collection h2, #home-page .lookbook p, #home-page .lookbook h2, #home-page .about p, #home-page .about h2, #home-page .blog p, #home-page .blog h2 {
+      padding: 1rem .5rem; }
+    #home-page .collection p, #home-page .lookbook p, #home-page .about p, #home-page .blog p {
+      color: #9c9c9c; }
+    #home-page .collection .shop, #home-page .collection .read, #home-page .lookbook .shop, #home-page .lookbook .read, #home-page .about .shop, #home-page .about .read, #home-page .blog .shop, #home-page .blog .read {
+      background: #1D1D1F;
+      color: #fff;
+      border: none;
+      height: 32px;
+      width: 50px;
+      margin-left: .5rem;
+      margin-bottom: 2rem;
+      transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+      #home-page .collection .shop a, #home-page .collection .read a, #home-page .lookbook .shop a, #home-page .lookbook .read a, #home-page .about .shop a, #home-page .about .read a, #home-page .blog .shop a, #home-page .blog .read a {
+        text-decoration: none;
+        color: #fff; }
+      #home-page .collection .shop:hover, #home-page .collection .shop:focus, #home-page .collection .read:hover, #home-page .collection .read:focus, #home-page .lookbook .shop:hover, #home-page .lookbook .shop:focus, #home-page .lookbook .read:hover, #home-page .lookbook .read:focus, #home-page .about .shop:hover, #home-page .about .shop:focus, #home-page .about .read:hover, #home-page .about .read:focus, #home-page .blog .shop:hover, #home-page .blog .shop:focus, #home-page .blog .read:hover, #home-page .blog .read:focus {
+        transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+        background: #fff;
+        border: 2px solid #1D1D1F; }
+        #home-page .collection .shop:hover a, #home-page .collection .shop:focus a, #home-page .collection .read:hover a, #home-page .collection .read:focus a, #home-page .lookbook .shop:hover a, #home-page .lookbook .shop:focus a, #home-page .lookbook .read:hover a, #home-page .lookbook .read:focus a, #home-page .about .shop:hover a, #home-page .about .shop:focus a, #home-page .about .read:hover a, #home-page .about .read:focus a, #home-page .blog .shop:hover a, #home-page .blog .shop:focus a, #home-page .blog .read:hover a, #home-page .blog .read:focus a {
+          color: #1D1D1F; }
+
+.collection .img {
+  background: url("../images/blackcollection.jpg") center center no-repeat; }
+
+.lookbook .img {
+  background: url("../images/lookbook.jpg") top center no-repeat; }
+
+.blog .img {
+  background: url("../images/blog.jpg") top center no-repeat; }
+
+.about .img {
+  background: url("../images/smalltown.jpg") top center no-repeat; }
+
+@media screen and (min-width: 768px) {
+  #home-page .collection, #home-page .lookbook, #home-page .about, #home-page .blog {
+    display: inline-block;
+    width: 49.7%; } }
+
+#collection-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  #collection-page header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../images/collection-hero.jpg") center top no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    width: 100%; }
+    #collection-page header .logo {
+      height: 150px;
+      width: 150px;
+      background: #000 url("../images/logo.svg") center center no-repeat;
+      background-size: contain; }
+  #collection-page h1 {
+    text-align: center; }
+  #collection-page p {
+    padding: 1rem; }
+  #collection-page .product-hero {
+    height: auto; }
+  #collection-page .filter {
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    background: #000;
+    padding-bottom: 2rem; }
+    #collection-page .filter input {
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+      text-align: center;
+      border: 1px solid #d5d5d6;
+      padding: 7px 14px; }
+    #collection-page .filter h2 {
+      padding-top: 1rem;
+      width: 100%;
+      text-align: center; }
+    #collection-page .filter .filter-container {
+      display: flex;
+      width: 100%;
+      background: #fff;
+      color: #000; }
+      #collection-page .filter .filter-container .brand-filter,
+      #collection-page .filter .filter-container .price-filter,
+      #collection-page .filter .filter-container .color-filter {
+        width: 33%;
+        padding: 1rem; }
+        #collection-page .filter .filter-container .brand-filter input,
+        #collection-page .filter .filter-container .price-filter input,
+        #collection-page .filter .filter-container .color-filter input {
+          border: 1px solid #d5d5d6;
+          padding: 7px 14px; }
+  #collection-page .products {
+    positon: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-bottom: 1rem; }
+    #collection-page .products .sneakers {
+      height: auto;
+      width: 320px;
+      margin: 1rem;
+      vertical-align: bottom; }
+      #collection-page .products .sneakers .img-container {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        cursor: pointer; }
+        #collection-page .products .sneakers .img-container:after {
+          position: absolute;
+          content: " ";
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: #000;
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          cursor: pointer; }
+        #collection-page .products .sneakers .img-container .show {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate3d(-50%, -50%, 0);
+          background: #fff;
+          padding: .5rem;
+          opacity: 0;
+          cursor: pointer; }
+        #collection-page .products .sneakers .img-container:hover:after, #collection-page .products .sneakers .img-container:focus:after {
+          opacity: 0.5;
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+        #collection-page .products .sneakers .img-container:hover .show, #collection-page .products .sneakers .img-container:focus .show {
+          opacity: 1;
+          z-index: 1; }
+        #collection-page .products .sneakers .img-container img {
+          width: 100%;
+          height: 250px;
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+          #collection-page .products .sneakers .img-container img:hover {
+            transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transform: scale(1.2); }
+      #collection-page .products .sneakers p, #collection-page .products .sneakers h2 {
+        padding: 1rem .5rem; }
+      #collection-page .products .sneakers p {
+        color: #9c9c9c; }
+      #collection-page .products .sneakers .shop {
+        background: #1D1D1F;
+        color: #fff;
+        border: none;
+        height: 32px;
+        width: 50px;
+        margin-left: .5rem;
+        margin-bottom: 2rem;
+        transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+        #collection-page .products .sneakers .shop a {
+          text-decoration: none;
+          color: #fff; }
+        #collection-page .products .sneakers .shop:hover, #collection-page .products .sneakers .shop:focus {
+          transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+          background: #fff;
+          border: 2px solid #1D1D1F; }
+          #collection-page .products .sneakers .shop:hover a, #collection-page .products .sneakers .shop:focus a {
+            color: #1D1D1F; }
+
+.image {
+  display: none;
+  height: 70vh;
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+
+.image.visible {
+  display: block; }
+
+#lookbook-page {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%; }
+  #lookbook-page .lookbook-header {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden; }
+    #lookbook-page .lookbook-header video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100%;
+      width: 100%; }
+  #lookbook-page h1 {
+    margin: 2rem;
+    text-align: center; }
+  #lookbook-page p {
+    margin: 0 auto;
+    padding: 2rem; }
+  #lookbook-page .lookbook-grid {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    #lookbook-page .lookbook-grid .left-grid {
+      display: inline-block;
+      height: 100vh;
+      width: 100%; }
+      #lookbook-page .lookbook-grid .left-grid .left-images {
+        position: relative;
+        width: 100%;
+        height: 50%;
+        overflow: hidden; }
+        #lookbook-page .lookbook-grid .left-grid .left-images img {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          vertical-align: bottom; }
+    #lookbook-page .lookbook-grid .right-grid {
+      display: inline-block;
+      height: 100vh;
+      width: 100%; }
+      #lookbook-page .lookbook-grid .right-grid .right-images {
+        position: relative;
+        width: 100%;
+        height: 33.3%;
+        overflow: hidden; }
+        #lookbook-page .lookbook-grid .right-grid .right-images img {
+          position: absolute;
+          width: 100%;
+          bottom: 0; }
+
+@media screen and (min-width: 768px) {
+  #lookbook-page .lookbook-grid .left-grid,
+  #lookbook-page .lookbook-grid .right-grid {
+    width: 720px; } }
+
+#product-page {
+  position: relative;
+  height: 100%;
+  overflow: hidden; }
+  #product-page .product-main-section {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    #product-page .product-main-section .product-image-container {
+      width: 100%;
+      height: 50vh;
+      overflow: scroll; }
+      #product-page .product-main-section .product-image-container img {
+        width: 100%;
+        height: auto;
+        background: #000; }
+    #product-page .product-main-section .product-details {
+      height: 30%;
+      padding: 1rem; }
+      #product-page .product-main-section .product-details p {
+        color: #9c9c9c; }
+  #product-page .product-image-section {
+    margin: 2rem 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #fff; }
+    #product-page .product-image-section .product-image-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100%; }
+      #product-page .product-image-section .product-image-grid img {
+        margin: 2rem .5rem;
+        width: 460px;
+        height: 480px;
+        background: #1D1D1F; }
+  #product-page .product-information {
+    width: 100%; }
+    #product-page .product-information h1 {
+      width: 100%;
+      text-align: center; }
+    #product-page .product-information p {
+      padding: 2rem; }
+  #product-page #purchase-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #fff;
+    height: 60px;
+    z-index: 10; }
+    #product-page #purchase-bar .purchase-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      display: flex;
+      justify-content: center; }
+      #product-page #purchase-bar .purchase-container .shoe-size, #product-page #purchase-bar .purchase-container .add-to-cart {
+        display: flex;
+        align-items: center;
+        max-width: 720px;
+        width: 50%;
+        background: #fff; }
+        #product-page #purchase-bar .purchase-container .shoe-size a, #product-page #purchase-bar .purchase-container .add-to-cart a {
+          text-decoration: none;
+          width: 100%;
+          text-align: center;
+          color: #9c9c9c; }
+      #product-page #purchase-bar .purchase-container .add-to-cart {
+        background: #000; }
+        #product-page #purchase-bar .purchase-container .add-to-cart a {
+          color: #9c9c9c; }
+
+@media screen and (min-width: 768px) {
+  #product-page .product-main-section {
+    display: flex;
+    height: 100%; }
+    #product-page .product-main-section .product-image-container {
+      width: 70%;
+      height: 100vh; }
+    #product-page .product-main-section .product-details {
+      width: 30%;
+      height: 100%; } }
+
+#checkout-page {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  color: #000; }
+  #checkout-page .checkout-banner {
+    width: 100%;
+    height: 50vh;
+    background: #000 url("../images/checkout-banner.jpg") center center no-repeat;
+    background-size: cover; }
+  #checkout-page .product-overview {
+    margin: 0 auto; }
+    #checkout-page .product-overview h2 {
+      text-align: center; }
+    #checkout-page .product-overview .overview-container {
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%; }
+      #checkout-page .product-overview .overview-container .overview-description,
+      #checkout-page .product-overview .overview-container .overview-image {
+        width: 50%;
+        height: auto; }
+      #checkout-page .product-overview .overview-container .overview-description {
+        padding: 1rem; }
+      #checkout-page .product-overview .overview-container .overview-image img {
+        width: 100%; }
+  #checkout-page .checkout-form {
+    margin-top: 2rem;
+    padding: 1rem; }
+    #checkout-page .checkout-form label {
+      display: block;
+      width: 100%; }
+    #checkout-page .checkout-form input,
+    #checkout-page .checkout-form select {
+      width: 100%;
+      margin-bottom: .5rem;
+      border: 1px solid #d5d5d6;
+      padding: 7px 14px; }
+    #checkout-page .checkout-form .ups,
+    #checkout-page .checkout-form .free {
+      display: inline-block;
+      width: 49%; }
+    #checkout-page .checkout-form .payPal,
+    #checkout-page .checkout-form .creditCard {
+      margin-top: 2rem;
+      display: flex; }
+      #checkout-page .checkout-form .payPal input,
+      #checkout-page .checkout-form .creditCard input {
+        width: 50px; }
+    #checkout-page .checkout-form input[type="submit"] {
+      margin-top: 2rem;
+      background: #000;
+      color: #9c9c9c;
+      padding: 1rem; }
+
+@media screen and (min-width: 768px) {
+  #checkout-page .checkout-form form {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap; }
+    #checkout-page .checkout-form form .billing {
+      height: 100%;
+      width: 75%; }
+      #checkout-page .checkout-form form .billing #country {
+        width: 20%; }
+      #checkout-page .checkout-form form .billing #zip {
+        width: 20%; }
+    #checkout-page .checkout-form form .address,
+    #checkout-page .checkout-form form .shipping,
+    #checkout-page .checkout-form form .payment {
+      width: 75%; } }
+
+#ordercomplete-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  #ordercomplete-page h1 {
+    text-align: center; }
+  #ordercomplete-page header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000 url("../images/checkout.jpg") center top no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%; }
+    #ordercomplete-page header .logo {
+      height: 150px;
+      width: 150px;
+      background: #000 url("../images/logo.svg") center center no-repeat;
+      background-size: contain; }
+
+#comingsoon-page {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  #comingsoon-page header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/KU7XRFB4RY.jpg") center top no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; }
+    #comingsoon-page header .logo {
+      height: 150px;
+      width: 150px;
+      background: #000 url("../images/logo.svg") center center no-repeat;
+      background-size: contain; }
+    #comingsoon-page header h1 {
+      color: #fff; }
+
+.container footer {
+  width: 100%;
+  height: 80px;
+  background: #1D1D1F; }

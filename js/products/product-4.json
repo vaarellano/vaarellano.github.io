@@ -1,0 +1,15 @@
+[{
+  "id": 4,
+  "color": "TRIPLE BLACK",
+  "brand": "NIKE",
+  "price": "$150.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1411_3b911e07-2483-4f10-ba78-2f0185001a7e.progressive.jpg?v=1480463080",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1418_c53423f2-4f1f-4619-9e01-a436e9ccca63.progressive.jpg?v=1480463082"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1420_972eb180-2134-45b9-961b-13e6ac18fd06.progressive.jpg?v=1480463085"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1427_9a7e9284-ae40-4eff-b974-4004ab548edd.progressive.jpg?v=1480463087"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1429_9efc96b1-5a45-4a67-9db3-9d7672cc283c.progressive.jpg?v=1480463089"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1433_ee671ef7-1021-477d-9939-a3da13fe2f44.progressive.jpg?v=1480463091"}
+  ]
+}
+]

@@ -1,0 +1,15 @@
+[{
+  "id": 6,
+  "color": "GREY / GREEN",
+  "brand": "NEW BALANCE",
+  "price": "$210.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5579-13_1024x1024.jpg?v=1492534751",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5590-15_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5584-14_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5593-16_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5579-13_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5590-15_1024x1024.jpg?v=1492534751"}
+  ]
+}
+]

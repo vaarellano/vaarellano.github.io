@@ -1,0 +1,113 @@
+[{
+  "id": 1,
+  "color": "METALLIC RED / WHITE",
+  "brand": "NIKE",
+  "price": "$160.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1055-18.progressive.jpg?v=1494011597",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1160-41.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1153-38.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1158-40.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1156-39.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1156-39.progressive.jpg?v=1494011597"}
+  ]
+},
+{
+  "id": 2,
+  "color": "BLACK / RED / WHITE",
+  "brand": "ADIDAS",
+  "price": "$170.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0083-150.progressive.jpg?v=1493664226",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0061-145.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Air_Jordan_1_Retro_High_OG_Metallic_Red_555088_103_1153-38.progressive.jpg?v=1494011597"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0064-146.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/White_BA7253_0052-142_aa20f0ce-207f-4c99-b9d3-172965266802.progressive.jpg?v=1493664226"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/Black_BA7252_0068-147.progressive.jpg?v=1493664226"}
+  ]
+},
+{
+  "id": 3,
+  "color": "WHITE / PEARL GREY / BLACK",
+  "brand": "ADIDAS",
+  "price": "$120.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0205-167.progressive.jpg?v=1493324488",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0211-169.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0207-168.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0214-170.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0205-167.progressive.jpg?v=1493324488"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/SandWhite_BB2101_0211-169.progressive.jpg?v=1493324488"}
+  ]
+},
+{
+  "id": 4,
+  "color": "TRIPLE BLACK",
+  "brand": "NIKE",
+  "price": "$150.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1411_3b911e07-2483-4f10-ba78-2f0185001a7e.progressive.jpg?v=1480463080",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1418_c53423f2-4f1f-4619-9e01-a436e9ccca63.progressive.jpg?v=1480463082"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1420_972eb180-2134-45b9-961b-13e6ac18fd06.progressive.jpg?v=1480463085"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1427_9a7e9284-ae40-4eff-b974-4004ab548edd.progressive.jpg?v=1480463087"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1429_9efc96b1-5a45-4a67-9db3-9d7672cc283c.progressive.jpg?v=1480463089"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/DSC_1433_ee671ef7-1021-477d-9939-a3da13fe2f44.progressive.jpg?v=1480463091"}
+  ]
+},
+{
+  "id": 5,
+  "color": "TARMAC",
+  "brand": "VANS",
+  "price": "$60.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7011-80_1024x1024.jpg?v=1492535282",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7016-82_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7014-81_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7018-83_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7011-80_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7016-82_1024x1024.jpg?v=1492535282"}
+  ]
+},
+{
+  "id": 6,
+  "color": "GREY / GREEN",
+  "brand": "NEW BALANCE",
+  "price": "$210.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5579-13_1024x1024.jpg?v=1492534751",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5590-15_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5584-14_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5593-16_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5579-13_1024x1024.jpg?v=1492534751"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/New_Balance_997_5590-15_1024x1024.jpg?v=1492534751"}
+  ]
+},
+{
+  "id": 7,
+  "color": "BLACK",
+  "brand": "NEW BALANCE",
+  "price": "$120.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5722-38_1024x1024.jpg?v=1492203086",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5725-40_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5724-39_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5729-41_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5731-42_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5722-38_1024x1024.jpg?v=1492203086"}
+  ]
+},
+{
+  "id": 8,
+  "color": "BLACK / FLORAL",
+  "brand": "NEW BALANCE",
+  "price": "$90.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5827-56_1024x1024.jpg?v=1491856144",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5831-58_1024x1024.jpg?v=1491856144"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5829-57_1024x1024.jpg?v=1491856144"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5835-59_1024x1024.jpg?v=1491856144"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5827-56_1024x1024.jpg?v=1491856144"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MCRUZPF_5831-58_1024x1024.jpg?v=1491856144"}
+  ]
+}
+]

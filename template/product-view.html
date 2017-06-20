@@ -1,0 +1,39 @@
+<!-- PRODUCT PAGE -->
+<div id="product-page">
+    <div class="product-main-section">
+        <div class="product-image-container">
+            <img ng-src="{{$ctrl.products[0].imageUrl}}" alt="">
+            <img src="{{$ctrl.products[0].productImages[0].imageUrl}}" alt="">
+            <img src="{{$ctrl.products[0].productImages[1].imageUrl}}" alt="">
+        </div>
+        <div class="product-details">
+            <!-- <h1>Items: {{count}}</h1> -->
+            <h1>{{$ctrl.products[0].brand}}</h1>
+            <p>{{$ctrl.products[0].color}}</p>
+            <h2>{{$ctrl.products[0].price}}</h2>
+            <p>product description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, sunt! Quos suscipit quibusdam quam tempore nisi, error aliquid quidem in excepturi amet alias ratione, est dolorem fugit obcaecati accusantium officiis.</p>
+            <a href="" ng-click="removeCart()" ng-hide="hideRemove" id="removeCart" cart>Remove</a>
+        </div>
+    </div>
+    <div class="product-image-section">
+        <div class="product-image-grid" ng-repeat="shoes in $ctrl.products">
+            <img ng-src="{{shoes.productImages[2].imageUrl}}"  alt="{{shoes.products[0].brand}}">
+            <img ng-src="{{shoes.productImages[3].imageUrl}}" alt="{{shoes.products[0].brand}}">
+            <img ng-src="{{shoes.productImages[4].imageUrl}}" alt="{{shoes.products[0].brand}}">
+        </div>
+    </div>
+    <div class="product-information">
+        <h1>{{$ctrl.products[0].brand}}</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius assumenda, quia tenetur a vitae, soluta unde inventore sapiente quibusdam. Provident veniam dolore voluptates perspiciatis explicabo doloremque repellat, corporis consequuntur sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eveniet eos corporis ut quos deserunt, ab, omnis nam placeat voluptates assumenda soluta repellat, odit perspiciatis blanditiis. Tempore accusantium, vitae obcaecati.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius assumenda, quia tenetur a vitae, soluta unde inventore sapiente quibusdam. Provident veniam dolore voluptates perspiciatis explicabo doloremque repellat, corporis consequuntur sint. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eveniet eos corporis ut quos deserunt, ab, omnis nam placeat voluptates assumenda soluta repellat, odit perspiciatis blanditiis. Tempore accusantium, vitae obcaecati.</p>
+    </div>
+    <div id="purchase-bar" cart>
+        <div class="purchase-container">
+            <div class="shoe-size"><a href="" ng-click="sizes()" id="size">SIZE</a></div>
+            <div class="add-to-cart">
+                <a href="#!/collection/cart/{{$ctrl.products[0].id}}" ng-click="addCart()" id="addCart">Add TO CART</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- PRODUCT PAGE -->

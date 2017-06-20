@@ -1,0 +1,15 @@
+[{
+  "id": 5,
+  "color": "TARMAC",
+  "brand": "VANS",
+  "price": "$60.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7011-80_1024x1024.jpg?v=1492535282",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7016-82_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7014-81_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7018-83_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7011-80_1024x1024.jpg?v=1492535282"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/OG_Slip_On_59_LX_Tarmac_VN0A38FZN9A_7016-82_1024x1024.jpg?v=1492535282"}
+  ]
+}
+]

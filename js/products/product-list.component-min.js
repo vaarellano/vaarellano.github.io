@@ -1,0 +1,1 @@
+angular.module("productList").component("productList",{templateUrl:"js/products/product-list.template.html",controller:["$http",function t(o){var r=this;r.orderProp="price",o.get("js/products/product-list.json").then(function(t){r.products=t.data})}]});

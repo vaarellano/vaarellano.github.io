@@ -1,0 +1,15 @@
+[{
+  "id": 7,
+  "color": "BLACK",
+  "brand": "NEW BALANCE",
+  "price": "$120.00",
+  "imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5722-38_1024x1024.jpg?v=1492203086",
+  "productImages": [
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5725-40_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5724-39_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5729-41_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5731-42_1024x1024.jpg?v=1492203086"},
+    {"imageUrl": "https://cdn.shopify.com/s/files/1/0094/2252/products/MFLTBDBK_5722-38_1024x1024.jpg?v=1492203086"}
+  ]
+}
+]

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500|Playfair+Display:400,700');
+
+$primary-color: #fff;
+$secondary-color: #1D1D1F;
+$secondary-font-color: #9c9c9c;
+
+$header-font: 'Playfair Display', serif;
+$body-font: 'Fira Sans', sans-serif;
+
+h1, h2, h3{
+	font-family: $header-font;
+}
+
+p, a, li{
+	font-family: $body-font;
+}

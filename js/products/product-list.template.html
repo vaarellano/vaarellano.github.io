@@ -1,0 +1,27 @@
+<div class="products product-hero" show>
+    <img ng-src="{{shoes.imageUrl}}" alt="{{shoes.brand}}" class="image">
+    <h1 class="brand">{{shoes.brand}}</h1>
+</div>
+<div class="filter">
+    <h1>SEARCH</h1>
+    <input ng-model="$ctrl.query" placeholder="ADIDAS" />
+</div>
+<br>
+<select ng-model="$ctrl.orderProp">
+    <option value="brand">Brand</option>
+    <option value="color">Color</option>
+    <option value="-price">Lowest Price</option>
+    <option value="price">Highest Price</option>
+</select>
+<div class="products">
+    <div class="sneakers" ng-repeat="shoes in $ctrl.products | filter:$ctrl.query |  orderBy: $ctrl.orderProp">
+        <div class="img-container" show>
+            <div class="show" id="show">VIEW</div>
+            <img ng-src="{{shoes.imageUrl}}" alt="Product image" class="product-image">
+        </div>
+        <p class="product-color">{{shoes.color}}</p>
+        <h2 class="product-brand">{{shoes.brand}}</h2>
+        <p class="product-color">{{shoes.price}}</p>
+        <button class="shop product-btn" "><a href="#!/collection/{{shoes.id}} ">SHOP</a></button>
+    </div>
+</div>
