@@ -1,5 +1,4 @@
-import { defineComponent, ref, inject, computed, onMounted, watch } from 'vue';
-import { useRoute } from 'vue-router';
+import { defineComponent, ref, inject, computed, onMounted, watch, useRoute } from '../deps.js';
 
 export default defineComponent({
   name: 'ProductDetails',

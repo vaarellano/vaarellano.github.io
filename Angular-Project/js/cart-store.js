@@ -1,4 +1,4 @@
-import { reactive } from 'vue';
+import { reactive } from './deps.js';
 
 export const cart = reactive({
   items: JSON.parse(localStorage.getItem('rk-cart') || '[]'),

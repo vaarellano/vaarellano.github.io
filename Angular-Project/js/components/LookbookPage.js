@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue';
+import { defineComponent } from '../deps.js';
 
 export default defineComponent({
   name: 'LookbookPage',

@@ -1,5 +1,4 @@
-import { createApp, defineComponent, ref, provide } from 'vue';
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createApp, defineComponent, ref, provide, createRouter, createWebHashHistory } from './deps.js';
 import { cart } from './cart-store.js';
 
 import HomePage       from './components/HomePage.js';

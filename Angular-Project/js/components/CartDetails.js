@@ -1,5 +1,4 @@
-import { defineComponent, ref, reactive, inject, onMounted } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
+import { defineComponent, ref, reactive, inject, onMounted, useRoute, useRouter } from '../deps.js';
 
 const COUNTRIES = [
   ['AX','Åland Islands'],['AF','Afghanistan'],['AL','Albania'],['DZ','Algeria'],

@@ -1,4 +1,4 @@
-import { defineComponent, ref, computed, onMounted } from 'vue';
+import { defineComponent, ref, computed, onMounted } from '../deps.js';
 
 export default defineComponent({
   name: 'CollectionPage',
