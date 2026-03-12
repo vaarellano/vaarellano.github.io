@@ -10,6 +10,9 @@
 </head>
 <body>
   <div id="app"></div>
+  <!-- Global CDN builds run synchronously before the deferred module script -->
+  <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.js"></script>
+  <script src="https://unpkg.com/vue-router@4.3.0/dist/vue-router.global.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 </html>
