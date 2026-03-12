@@ -1,1 +1,0 @@
-angular.module("productDetails").component("productDetails",{templateUrl:"template/product-view.html",controller:["$http","$stateParams",function t(o,e){var a=this;o.get("js/products/product-"+e.shoesId+".json").then(function(t){a.products=t.data})}]});
